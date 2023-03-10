@@ -1,4 +1,5 @@
 .vscode/
 build/*
+!build/.gitkeep
 extra
 make/extraMakefile
