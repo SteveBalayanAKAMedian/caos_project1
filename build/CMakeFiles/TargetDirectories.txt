@@ -1,3 +1,0 @@
-/home/rivai_akkaman/caos_project1/build/CMakeFiles/rebuild_cache.dir
-/home/rivai_akkaman/caos_project1/build/CMakeFiles/edit_cache.dir
-/home/rivai_akkaman/caos_project1/build/CMakeFiles/divmod.dir

@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/divmod.dir/src/test_default.c.o CMakeFiles/divmod.dir/src/divmod.c.o  -o divmod 

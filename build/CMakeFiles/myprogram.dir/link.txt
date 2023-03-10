@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/myprogram.dir/src/test_default.c.o CMakeFiles/myprogram.dir/src/divmod.c.o  -o myprogram 
