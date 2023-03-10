@@ -27,8 +27,11 @@ $mod = n - d \cdot q$
 
 # Запуск
 В корне проекта:
-```
-make -f  make/defaultMakefile && ./default_div
+```console
+foo@bar:~$ cd build
+foo@bar:~/build$ cmake ../
+foo@bar:~/build$ cmake --build .
+foo@bar:~/build$ ./divmod
 ```
 
 # Дополнительные замечания
