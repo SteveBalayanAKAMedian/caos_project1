@@ -7,7 +7,7 @@
 struct divmod_t divmod_init(int b) {
     if (b == 0) {
         errno = 1;
-        return (struct divmod_t){0, 0, 0, 0, 0};
+        return (struct divmod_t){0, 0, 0, 0, 0, 0};
     }
 
     int sign;
@@ -62,7 +62,6 @@ int div_const(struct divmod_t *divmod, int a) {
 
     unsigned long long t1 = (divmod->m * n) >> N;
     unsigned int q_abs = (t1 + ((n - t1) >> divmod->sh1)) >> divmod->sh2;
-    int ans;
     long long full_ans = sign_n * divmod->sign_d * (int)q_abs;
     if (full_ans >= INT_MIN && full_ans <= INT_MAX) {
         return full_ans;
